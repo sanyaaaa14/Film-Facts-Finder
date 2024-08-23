@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Facts Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search">
+        <input type="text" id="movieName" class="search-input" placeholder="Find the details of a movie...">
+        <button class="btn" onclick="searchMovie()">Search Movie</button>
+    </div>
+    <p class="display-content"> Welcome! To find detailed information about a movie, such as its director, actors, ratings, and more, please use the search box.<br>
+        Simply enter the name of the movie and click "Search Movie" to view the details.</p>
+    <div class="container">
+        <div class="content">
+            <h1 id="title"></h1>
+            <p>Director : <span id="director"></span></p>
+            <p>Writer : <span id="writer"></span></p>
+            <p>Actors : <span id="actors"></span></p>
+            <p>Language : <span id="language"></span></p>
+            <p>Awards : <span id="awards"></span></p>
+            <p>Country : <span id="country"></span></p>
+            <p>Genre : <span id="genre"></span></p>
+            <p>Movie Plot : <span id="plot"></span></p>
+            <p>Released On : <span id="released"></span></p>
+            <p>Ratings : <span id="ratings"></span></p>
+            <p>Box-Office Collection : <span id="collection"></span></p>
+            <p>Runtime : <span id="runtime"></span></p>
+            
+        </div>
+        <img class="poster" id="poster-img" src="" alt="">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
