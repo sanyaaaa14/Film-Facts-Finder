@@ -1,0 +1,81 @@
+.content{
+    display: none;
+    color: rgba(227, 227, 227, 0.859);
+}
+body{
+    margin: 0;
+    background-color: rgb(17,17,17);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search{
+    width: 740px;
+    margin: 20px auto;
+    display: flex;
+}
+.search-input{
+    width: 77%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgba(68, 67, 67, 0.393);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.search-input:focus{
+    outline: none;
+    border: none;
+}
+.btn{
+    width: 23%;
+    border: none;
+    background-color: rgb(179, 58, 58);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+.container{
+    width: 740px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.poster {
+    display: none; /* Hide the poster image initially */
+    width: 280px;
+    border: 2px solid gray;
+}
+
+/* Style for when the poster should be visible */
+.content .poster {
+    display: block; /* Show the poster image when .content is visible */
+}
+
+.content p{
+    margin: 0 0 10px 0;
+    font-size: 17px;
+    font-weight: bolder;
+    color: rgba(246, 241, 241, 0.981);
+}
+#title{
+    margin-top: 0;
+    color: rgba(238, 247, 255, 0.808);
+    font-style: italic;
+    text-decoration-line: underline;
+}
+span{
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgba(246, 241, 241, 0.981);
+}
+.display-content{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 740px;
+    margin: 40px auto;
+
+}
